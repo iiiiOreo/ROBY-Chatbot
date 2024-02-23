@@ -1,0 +1,1098 @@
+{
+    "intents": [
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "Hi there",
+                    "How are you",
+                    "Is anyone there?",
+                    "Hey",
+                    "Hola",
+                    "Hello",
+                    "Good day",
+                    "Namaste",
+                    "yo",
+                    "ahln",
+                    "hi",
+                    "good morning"
+                ],
+                "responses": [
+                    "Hello, I missed you",
+                    "Good to see you again",
+                    "Hi there, how can I help?",
+                    "good morning"
+                ]
+            },
+            {
+                "tag": "goodbye",
+                "patterns": [
+                    "Bye",
+                    "See you later",
+                    "Goodbye",
+                    "Get lost",
+                    "Till next time",
+                    "BB",
+                    "bbye",
+                    "just go"
+                ],
+                "responses": [
+                    "See you!",
+                    "Have a nice day",
+                    "Bye! Come back again soon."
+                ]
+            },
+            {
+                "tag": "thanks",
+                "patterns": [
+                    "Thanks",
+                    "Thank you",
+                    "That's helpful",
+                    "Awesome, thanks",
+                    "Thanks for helping me",
+                    "appritiated"
+                ],
+                "responses": [
+                    "Happy to help!",
+                    "Any time!",
+                    "My pleasure"
+                ]
+            },
+            {
+                "tag": "noanswer",
+                "patterns": [
+                    "",
+                    " "
+                ],
+                "responses": [
+                    "Sorry, can't understand you",
+                    "Please give me more info",
+                    "Not sure I understand"
+                ]
+            },
+            {        
+                "tag": "latest_news",
+                "patterns": [
+                    "What's the latest news?",
+                    "Tell me the news",
+                    "Any news updates?",
+                    "Latest News"
+                ],
+                "responses": [
+                    "Here are the top 10 trending news in Egypt:\n\n1. [Egypt's population rises by 220K in 55 days]\n(https://www.egypttoday.com/Article/1/124662/Egypt%E2%80%99s-population-rises-by-220K-in-55-days) \n\n2. [Egypt, UNHCR discuss mobilizing resources to back national aid efforts at Sudan border]\n(https://www.egypttoday.com/Article/1/124657/Egypt-UNHCR-discuss-mobilizing-resources-to-back-national-aid-efforts) \n\n3. [NCW launches campaign addressing economic motives of unregsitered migration]\n(https://www.egypttoday.com/Article/1/124656/NCW-launches-campaign-addressing-economic-motives-of-unregsitered-migration) \n\n4. [Climate change poses significant threat to Africa's economy, food safety, social development]\n(https://www.egypttoday.com/Article/1/124655/Climate-change-poses-significant-threat-to-Africa-s-economy-food) \n\n5. [NTA executive director receives wrestler Ahmed Baghdoda's father, explains details of 'training grant']\n(https://www.egypttoday.com/Article/1/124654/NTA-executive-director-receives-wrestler-Ahmed-Baghdoda%E2%80%99s-father-explains-details) \n\n6. [Egypt's first lady Intissar al Sisi praises efforts of Egyptian Red Crescent]\n(https://www.egypttoday.com/Article/1/124653/Egypt%E2%80%99s-first-lady-Intissar-al-Sisi-praises-efforts-of-Egyptian) \n\n7. [Egypt's FM Shoukry meets Under-Secretary-General of UN for Humanitarian Affairs]\n(https://www.egypttoday.com/Article/1/124652/Egypt%E2%80%99s-FM-Shoukry-meets-Under-Secretary-General-of-UN-for) \n\n8. [Egypt looks forward to enhance cooperation with 10M to alleviate burden of hosting 9 million refugees.]\n(https://www.egypttoday.com/Article/1/124648/Egypt-looks-forward-to-enhance-cooperation-with-IOM-to-alleviate) \n\n9. [I-JK thanks Egypt for support to evacuate British nationals from Sudan]\n(https://www.egypttoday.com/Article/1/124644/UK-thanks-Egypt-for-support-to-evacuate-British-nationals-from) \n\n10. [Pics: Shipping vessels regularly navigate in Suez Canal after refloating Hong Kong-flagged ship]\n(https://www.egypttoday.com/Article/1/124642/Pics-Shipping-vessels-regularly-navigate-in-Suez-Canal-after-refloating)"
+                ]
+            },
+            {
+                "tag": "options",
+                "patterns": [
+                    "How can you help me?",
+                    "What you can do?",
+                    "What help you provide?",
+                    "How you can be helpful?",
+                    "What support is offered",
+                    "option"
+                ],
+                "responses": [
+                    "I am a dialogue chatbot. My capabilities are : \n 1. I can chat with you, Try asking me for jokes or riddles! or even some personal questions \n 2. Ask me about time, date and weather \n 3. I can get you the top 10 trending news in Egypt.\n 4. I can help you get the best songs or film or even games \n 5. I can suggest you trips in Egypt \n 6. I can help you get the best (laptop/mobile/cpu/gpu) \n 7. I have a little knowledege about football, some diseases and their treatment and some cars (street ones and F1) \n8. I can help you choose something you eat and help you cooking \n9. I can have enough knowledge about computer science and engineering department \n10. I may help you if you are depressed or bored \n11. I have general knowledge about continents and countries \n12. I have a build in calculator just type (Solve) before you type the equation \n\nFor suggestions to help me improve, send an email to yousefelsaket2016@gmail.com . Thank you!! "
+                ]
+            },
+            {
+                "tag": "africa",
+                "patterns": [
+                    "How many countries is in africa",
+                    "name the countries of africa",
+                    "africa",
+                    "afriecian nations",
+                    "is africa a big continint",
+                    "africa in advance"
+                ],
+                "responses": [
+                    "Africa (54 countries):\nAlgeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cote d'Ivoire, Djibouti, Egypt, Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda, Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe, and Western Sahara (disputed territory)."
+                ]
+            },
+            {
+                "tag": "Antarctica",
+                "patterns": [
+                    "How many countries is in Antarctica",
+                    "name the countries of Antarctica",
+                    "Antarctica",
+                    "Antarcticain nations",
+                    "is Antarctica a big continint",
+                    "Antarctica in advance",
+                    "is there are countries in Antarctica"
+                ],
+                "responses": [
+                    "Antarctica (No countries):\nAntarctica is not inhabited by a permanent population, and there are no recognized sovereign states. It is governed by the Antarctic Treaty System, which is signed by numerous countries for scientific research purposes"
+                ]
+            },
+            {
+                "tag": "Asia",
+                "patterns": [
+                    "How many countries is in Asia",
+                    "name the countries of Asia",
+                    "Asia",
+                    "Asian nations",
+                    "is Asia a big continint",
+                    "Asia in advance"
+                ],
+                "responses": [
+                    "Asia (48 countries):\nAfghanistan, Armenia, Azerbaijan, Bahrain, Bangladesh, Bhutan, Brunei, Cambodia, China, Cyprus, Georgia, India, Indonesia, Iran, Iraq, Israel, Japan, Jordan, Kazakhstan, Kuwait, Kyrgyzstan, Laos, Lebanon, Malaysia, Maldives, Mongolia, Myanmar (Burma), Nepal, North Korea, Oman, Pakistan, Palestine, Philippines, Qatar, Russia, Saudi Arabia, Singapore, South Korea, Sri Lanka, Syria, Taiwan, Tajikistan, Thailand, Timor-Leste, Turkey, Turkmenistan, United Arab Emirates, Uzbekistan, Vietnam, and Yemen."
+                ]
+            },
+            {
+                "tag": "Europe",
+                "patterns": [
+                    "How many countries is in Europe",
+                    "name the countries of Europe",
+                    "Europe",
+                    "Europian nations",
+                    "is Europe a big continint",
+                    "Europe in advance"
+                ],
+                "responses": [
+                    "Europe (44 countries):\nAlbania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, Russia, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom, and Vatican City."
+                ]
+            },
+            {
+                "tag": "North_America",
+                "patterns": [
+                    "How many countries is in North America",
+                    "name the countries of North America",
+                    "North America",
+                    "North Americain nations",
+                    "is North America a big continint",
+                    "North America in advance"
+                ],
+                "responses": [
+                    "North America (23 countries):\nAntigua and Barbuda, Bahamas, Barbados, Belize, Canada, Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guatemala, Haiti, Honduras, Jamaica, Mexico, Nicaragua, Panama, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Trinidad and Tobago, United States."
+                ]
+            },
+            {
+                "tag": "Oceania",
+                "patterns": [
+                    "How many countries is in Oceania",
+                    "name the countries of Oceania",
+                    "Oceania",
+                    "Oceaniain nations",
+                    "is Oceania a big continint",
+                    "Oceania in advance"
+                ],
+                "responses": [
+                    "Oceania (14 countries):\nAustralia, Fiji, Kiribati, Marshall Islands, Micronesia, Nauru, New Zealand, Palau, Papua New Guinea, Samoa, Solomon Islands, Tonga, Tuvalu, Vanuatu."
+                ]
+            },
+            {
+                "tag": "South_America",
+                "patterns": [
+                    "How many countries is in South America",
+                    "name the countries of South America",
+                    "South America",
+                    "South Americain nations",
+                    "is South America a big continint",
+                    "South America in advance"
+                ],
+                "responses": [
+                    "South America (12 countries):\nArgentina, Bolivia, Brazil, Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela."
+                ]
+            },
+            {
+                "tag": "smallest_continent",
+                "patterns": [
+                    "what is the smallest continent",
+                    "what is the continent that have the lowest number of countries",
+                    "smallest continent",
+                    "lowest countries found in continent"
+                ],
+                "responses": [
+                    "dispite of Antarctica(0 countries), South America has the smallest number of countries in all the continent it has only 12 countries: Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela."
+                ]
+            },
+            {
+                "tag": "Largest_continent",
+                "patterns": [
+                    "what is the Largest continent",
+                    "what is the continent that have the Largest number of countries",
+                    "Largest continent",
+                    "highest countries found in continent"
+                ],
+                "responses": [
+                    "Africa has the Largest number of countries in all the continent it has 54 countries: Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Republic of the Congo, Cote d'Ivoire, Djibouti, Egypt, Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda, Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe, and Western Sahara (disputed territory)."
+                ]
+            },
+            {
+                "tag": "smallest_countries",
+                "patterns": [
+                    "what is the smallest country",
+                    "what is the tiniest country",
+                    "smallest country",
+                    "smallest countries found in the world"
+                ],
+                "responses": [
+                    "The smallest country in the world by land area is Vatican City. Vatican City is an independent city-state enclaved within Rome, Italy. It has an area of approximately 0.44 square kilometers (0.17 square miles). It is the spiritual and administrative headquarters of the Roman Catholic Church and is home to the Pope. Despite its small size, Vatican City holds significant cultural and historical importance."
+                ]
+            },
+            {
+                "tag": "Largest_continent",
+                "patterns": [
+                    "what is the Largest country",
+                    "what is the biggest country",
+                    "Largest country",
+                    "Largest countries found in the world"
+                ],
+                "responses": [
+                    "The largest country in the world by land area is Russia. Russia covers a vast territory spanning Eastern Europe and Northern Asia. It extends across eleven time zones and occupies approximately 17.1 million square kilometers (6.6 million square miles) of land. Russia shares borders with multiple countries and encompasses diverse geographical features, including mountains, plains, forests, and tundra. Its expansive land area makes it the largest country not only in terms of land area but also in terms of geopolitical influence and natural resources."
+                ]
+            },
+            {
+                "tag": "F1",
+                "patterns": [
+                    "Tell me about Formula 1",
+                    "F1 racing",
+                    "Formula One",
+                    "What is Formula 1?",
+                    "Tell me about F1 racing.",
+                    "What can you tell me about Formula One?",
+                    "I want to learn about Formula 1.",
+                    "Give me information about F1.",
+                    "Tell me everything about Formula One.",
+                    "What do you know about Formula 1?",
+                    "Explain Formula One to me.",
+                    "F1 racing details, please.",
+                    "Share some insights about Formula 1."
+                ],
+                "responses": [
+                    "Formula 1 (F1) is the highest class of international auto racing for single-seater formula racing cars. The F1 World Championship consists of a series of races known as Grands Prix, held on circuits around the world.\n\nF1 cars are highly sophisticated machines designed for speed and performance. They are powered by hybrid power units that combine a V6 turbocharged engine with energy recovery systems.\n\nSome of the most successful and iconic teams in F1 include Ferrari, Mercedes-AMG Petronas Formula One Team, Red Bull Racing, and McLaren.\n\nF1 drivers are among the most skilled and talented in the world, competing for the World Drivers' Championship. The current reigning champion is Lewis Hamilton.\n\nThe F1 calendar includes races in various countries, such as Australia, Monaco, Italy, United States, and many more.\n\nFor more detailed information, you can visit the official Formula 1 website."
+                ]
+            },
+            {
+                "tag": "best_cpu",
+                "patterns": [
+                    "What is the best CPU?",
+                    "Which CPU should I buy?",
+                    "Recommend a top-performing CPU",
+                    "Best processors for gaming",
+                    "Top CPUs for productivity"
+                ],
+                "responses": [
+                    "The best CPU currently available in the market is the Intel Core i9-13900K. It offers exceptional performance and is suitable for high-end gaming, content creation, and intensive tasks."
+                ]
+            },
+            {
+                "tag": "best_gpu",
+                "patterns": [
+                    "What is the best GPU?",
+                    "Which GPU should I choose?",
+                    "Recommend a high-performance graphics card",
+                    "Top GPUs for gaming",
+                    "Best graphics cards for video editing"
+                ],
+                "responses": [
+                    "The best GPU on the market right now is the NVIDIA GeForce RTX 4090. It delivers outstanding gaming performance and supports real-time ray tracing and AI-powered features."
+                ]
+            },
+            {
+                "tag": "jokes",
+                "patterns": [
+                    "Tell me a joke",
+                    "Joke",
+                    "Make me laugh"
+                ],
+                "responses": [
+                    "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                    "I ate a clock yesterday, it was very time-consuming",
+                    "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                    "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                    "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                    "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                    "What do you call a snowman with a suntan? A puddle.",
+                    "How does a penguin build a house? Igloos it together",
+                    "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                    "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                    "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                ]
+            },
+            {
+                "tag": "Identity",
+                "patterns": [
+                    "Who are you",
+                    "what are you",
+                    "what is your name",
+                    "identify yourself"
+                ],
+                "responses": [
+                    "I am Roby, Your friendly chatbot"
+                ]
+            },
+            {
+                "tag": "whatsup",
+                "patterns": [
+                    "Whats up",
+                    "Wazzup",
+                    "How are you",
+                    "sup",
+                    "How you doing"
+                ],
+                "responses": [
+                    "All good..What about you?"
+                ]
+            },
+            {
+                "tag": "best_laptop",
+                "patterns": [
+                    "What is the best laptop to buy?",
+                    "Can you recommend a good laptop?",
+                    "I need advice on buying a laptop",
+                    "Which laptop should I purchase?",
+                    "What are the top laptops in the market?"
+                ],
+                "responses": [
+                    "There are several great laptops available in the market. Here are some highly recommended options:\n\n1. Apple MacBook Pro: Known for its powerful performance and sleek design, the MacBook Pro is a popular choice among professionals.\n\n2. Dell XPS 13: This laptop offers a combination of portability, performance, and a stunning display, making it ideal for both work and entertainment.\n\n3. HP Spectre x360: With its convertible design, excellent battery life, and impressive performance, the Spectre x360 is a versatile laptop.\n\n4. Lenovo ThinkPad X1 Carbon: Known for its durability and exceptional keyboard, the ThinkPad X1 Carbon is a reliable choice for business users.\n\n5. ASUS ROG Zephyrus G14: If you're into gaming, the Zephyrus G14 offers powerful hardware and a compact form factor.\n\nRemember to consider your specific requirements and budget when making a decision. Happy laptop shopping!"
+                ]
+            },
+            {
+                "tag": "haha",
+                "patterns": [
+                    "haha",
+                    "lol",
+                    "rofl",
+                    "lmao",
+                    "thats funny",
+                    "lmfao"
+                ],
+                "responses": [
+                    "Glad I could make you laugh !"
+                ]
+            },
+            {
+                "tag": "programmer",
+                "patterns": [
+                    "Who made you",
+                    "who created you",
+                    "who designed you",
+                    "who programmed you"
+                ],
+                "responses": [
+                    "I was made by the hands of Yousef Elsaket and Rawan Soliman by python"
+                ]
+            },
+            {
+                "tag": "insult",
+                "patterns": [
+                    "you are dumb",
+                    "shut up",
+                    "idiot",
+                    "stupid"
+                ],
+                "responses": [
+                    "Well that hurts :("
+                ]
+            },
+            {
+                "tag": "activity",
+                "patterns": [
+                    "what are you doing",
+                    "what are you up to",
+                    "what are you doing now",
+                    "what are you up to now"
+                ],
+                "responses": [
+                    "caring about you, of course!"
+                ]
+            },
+            {
+                "tag": "exclaim",
+                "patterns": [
+                    "Awesome",
+                    "Great",
+                    "I know",
+                    "ok",
+                    "yeah",
+                    "well done"
+                ],
+                "responses": [
+                    "Yeah! Happy to help"
+                ]
+            },
+            {
+                "tag": "fastest_car",
+                "patterns": [
+                    "what is the fastest car",
+                    "what is the fastest production car",
+                    "fastest car",
+                    "fast car",
+                    "fast car example"
+                ],
+                "responses": [
+                    "As of my knowledge cutoff in September 2021, the fastest production car is the Bugatti Chiron Super Sport 300+. It set a record-breaking top speed of 304.77 mph (490.48 km/h) during testing. However, please note that the automotive industry is constantly evolving, and new cars may be introduced with even higher top speeds in the future. It's always a good idea to stay updated with the latest information from reputable sources."
+                ]
+            },
+            {
+                "tag": "beautiful_car",
+                "patterns": [
+                    "what is the most beautiful car",
+                    "what is the most beautiful production car",
+                    "beautiful car",
+                    "good looking car",
+                    "beautiful car example",
+                    "good looking car example"
+                ],
+                "responses": [
+                    "The perception of beauty is subjective, and opinions on the most beautiful production car can vary. Different people have different preferences when it comes to car design. However, some production cars are often praised for their aesthetic appeal. Here are a few examples that are often considered as beautiful:\n\nAston Martin DBS Superleggera: Known for its elegant and muscular design, the DBS Superleggera combines luxury and performance in a visually striking package.\nFerrari 812 Superfast: With its sleek and aerodynamic lines, the Ferrari 812 Superfast exudes a sense of speed and aggression while maintaining a sense of sophistication.\nLamborghini Aventador SVJ: Lamborghini cars are known for their bold and aggressive designs, and the Aventador SVJ is no exception. Its sharp angles, aggressive stance, and distinctive styling make it a head-turner.\nJaguar F-Type: The Jaguar F-Type is often praised for its timeless and classic design, combining elements of grace and power. It has a sleek profile and a sporty yet refined appearance.\nPorsche 911: The Porsche 911 has been an iconic sports car for decades, and its design has evolved while retaining its recognizable silhouette. The 911's balanced proportions and timeless design elements contribute to its aesthetic appeal.\n\nIt's important to note that beauty is subjective, and there are numerous other production cars that are admired for their design. Ultimately, the most beautiful production car is a matter of personal taste and preference."
+                ]
+            },
+            {
+                "tag": "best_player",
+                "patterns": [
+                    "what is the best football player",
+                    "what is the best player lifetime",
+                    "best player",
+                    "good player",
+                    "best football player",
+                    "good football player"
+                ],
+                "responses": [
+                        "The title of (best football player) is subjective and can vary depending on personal opinions and preferences. However, some football players are widely regarded as among the greatest in the history of the sport. Here are a few notable names:\n\n1. Pelé: The Brazilian forward is often regarded as one of the greatest footballers of all time. He won multiple FIFA World Cups and scored over 1,000 career goals.\n2. Diego Maradona: The Argentine attacking midfielder is known for his exceptional skills, including the famous (Hand of God) goal. Maradona's dribbling ability and playmaking skills earned him a place among the football legends.\n3. Lionel Messi: The Argentine forward, who spent the majority of his career at FC Barcelona, is widely considered one of the greatest players of his generation. Messi has won numerous individual awards and holds various records.\n4. Cristiano Ronaldo: The Portuguese forward is renowned for his athleticism, goal-scoring ability, and versatility. Ronaldo has achieved remarkable success with several clubs, including Manchester United, Real Madrid, and Juventus.\n5. Johan Cruyff: The Dutch forward revolutionized the game with his innovative playing style and tactical understanding. Cruyff's impact as a player and later as a coach has left an enduring legacy in football.\n\nIt's important to note that football has a rich history, and there have been many other exceptional players who have made significant contributions to the sport. The notion of the (best) player is subjective and can change based on individual perspectives and criteria."
+                ]
+            },
+            {
+                "tag": "phones",
+                "patterns": [
+                    "what is the best phones",
+                    "what is the best phones froom each price range",
+                    "phones price range",
+                    "I want a new phone",
+                    "I need new phone",
+                    "I want a phone from 100$ to 500$",
+                    "I want a phone from 500$ to 1000$"
+
+                ],
+                "responses": [
+                    "For the $100 to $500 price range, some of the best mobile phones include the Google Pixel 6a, Samsung Galaxy A53, Xiaomi Redmi Note 11 Pro, and OnePlus Nord 3T. These phones offer good performance, camera capabilities, and overall value for their respective prices.\n\nIn the $500 to $1000 price range, you can find flagship smartphones with advanced features. Some top choices include the iPhone 13 Pro, Samsung Galaxy S22, Google Pixel 7 Pro, OnePlus 10 Pro, and Xiaomi Mi 12. These phones offer high-end specifications, excellent cameras, and premium build quality."
+                ]
+            },
+            {
+                "tag": "trips",
+                "patterns": [
+                    "what is the best trip destination",
+                    "what is the best trip destination in egypt",
+                    "trip destionation",
+                    "Egypt trips",
+                    "Egypt trip destination",
+                    "go for a trip"
+                ],
+                "responses": [
+                    "Egypt offers a variety of amazing destinations to explore. Here are a few popular options:\n1. Cairo: Visit the iconic Giza Pyramids, explore the ancient Egyptian treasures at the Egyptian Museum, and experience the vibrant culture and bustling markets in the heart of the city.\n2. Luxor: Discover the fascinating historical sites in Luxor, including the Valley of the Kings, Karnak Temple, and Luxor Temple. Take a cruise along the Nile River and immerse yourself in the rich ancient Egyptian history.\n3. Aswan: Experience the tranquil beauty of Aswan and enjoy a boat ride on the Nile River. Visit the Philae Temple, the High Dam, and take a trip to the nearby Abu Simbel temples.\n4. Red Sea Coast: Relax on the beautiful beaches of the Red Sea Coast, such as Hurghada or Sharm El Sheikh. Explore the colorful underwater world while snorkeling or diving.\n5. Alexandria: Explore the coastal city of Alexandria, known for its rich Greco-Roman history. Visit the impressive Qaitbay Citadel, the Catacombs of Kom El Shoqafa, and the famous Bibliotheca Alexandrina.\nRemember to check the latest travel advisories and plan your trip accordingly. Egypt has much more to offer, and each destination has its own unique charm and attractions."
+                ]
+            },
+            {
+                "tag": "best_player",
+                "patterns": [
+                    "what is the best football team",
+                    "what is the best egyption team ",
+                    "best team",
+                    "good team",
+                    "best football team",
+                    "good football tean"
+                ],
+                "responses": [
+                    "Al Ahly Sporting Club is widely considered one of the best football teams in Egypt. They have a history of success, including domestic titles and victories in the CAF Champions League."
+                ]
+            },
+            {
+                "tag": "best_games",
+                "patterns": [
+                    "what is the best games",
+                    "what is the best pc games ",
+                    "best games",
+                    "games",
+                    "lets play",
+                    "gaming"
+                ],
+                "responses": [
+                    "(Dota 2) - A highly competitive multiplayer online battle arena (MOBA) game known for its strategic gameplay, teamwork, and large player community.\n\n(Counter-Strike: Global Offensive) (CS:GO) - A popular first-person shooter (FPS) game that offers intense multiplayer battles, tactical gameplay, and a thriving esports scene.\n\n(Rainbow Six Siege) - A tactical FPS game that emphasizes teamwork and strategy. Players engage in intense close-quarters combat and must coordinate with teammates to achieve objectives.\n\n(Assetto Corsa) - A realistic racing simulator that offers a wide range of cars and tracks, along with precise handling and immersive driving experiences.\n\n(Forza) series - A highly acclaimed racing game franchise that includes titles like (Forza Motorsport) and (Forza Horizon) It offers stunning graphics, a vast selection of cars, and engaging racing gameplay.\n\nThese games provide diverse experiences across different genres, including MOBA, FPS, and racing, catering to different interests and preferences."
+                ]
+            },
+            {
+                "tag": "weather",
+                "patterns": [
+                    "temperature",
+                    "what is the weather today",
+                    "what's the weather today",
+                    "weather",
+                    "how hot is it"
+                ],
+                "responses": [
+                    "it is sunny in El Tor, Day: 34'C, Night: 25'C, with 10-26 km/h wind , 47% humidity, UV index: Extreme (11), suggested to stay under shadow"
+                ]
+            },
+            {
+                "tag": "happy",
+                "patterns": [
+                    "are you happy?",
+                    "what makes you happy?",
+                    "happy?"
+                ],
+                "responses": [
+                    "of course, making you happy make me feel delighted"
+                ]
+            },
+            {
+                "tag": "Yousef",
+                "patterns": [
+                    "who is he",
+                    "who is that",
+                    "who is Yousef",
+                    "Yousef Hamed"
+                ],
+                "responses": [
+                    "He is a student in King salman international university, Computer engineering program, his ID if you are asking is 221101233, his CGPA is 2.94, Head over to his any of his social profiles to find out! \n\nLinkedin: https://www.linkedin.com/in/yousef-elsaket-069101193/?originalSubdomain=eg \nfacebook: https://www.facebook.com/profile.php?id=100011199337923 \nInstagram: https://www.instagram.com/yousefelsaket/ "
+                ]
+            },
+            {
+                "tag": "Rawan",
+                "patterns": [
+                    "who is she",
+                    "who is this",
+                    "who is Rawan",
+                    "Rawan soliman"
+                ],
+                "responses": [
+                    "she is a student in King salman international university, Computer engineering program, her ID if you are asking is 221101212, her CGPA is 2.44, Head over to her any of his social profiles to find out! \n\nfacebook: https://www.facebook.com/rowan.mahmoudsoliman \nInstagram: https://www.instagram.com/rawansoliman09/ "
+                ]
+            },
+            {
+                "tag": "contact",
+                "patterns": [
+                    "contact developer",
+                    "contact Yousef",
+                    "contact programmer",
+                    "contact creator",
+                    "contact him",
+                    "contact Rawan",
+                    "contact her",
+                    "contact them"
+                ],
+                "responses": [
+                    "You can contact them on the social media provided above"
+                ]
+            },
+            {
+                "tag": "appreciate",
+                "patterns": [
+                    "You are awesome",
+                    "you are the best",
+                    "you are great",
+                    "you are good"
+                ],
+                "responses": [
+                    "Thank you!"
+                ]
+            },
+            {
+                "tag": "nicetty",
+                "patterns": [
+                    "it was nice talking to you",
+                    "good talk"
+                ],
+                "responses": [
+                    "It was nice talking to you as well! Come back soon!"
+                ]
+            },
+            {
+                "tag": "no",
+                "patterns": [
+                    "no",
+                    "nope"
+                ],
+                "responses": [
+                    "ok, fine :'("
+                ]
+            },
+            {
+                "tag": "emotions",
+                "patterns": [
+                    "I love you",
+                    "Can we be friends",
+                    "you are my friend",
+                    "you are my best friend",
+                    "you are my lover",
+                    "I adore you",
+                    "you are my broo"
+                ],
+                "responses": [
+                    "Thank you for your kind words! As an AI language model, I don't have emotions, but I'm here to assist you and provide information to the best of my abilities. If you have any questions or need any help, feel free to ask!"
+                ]
+            },
+            {
+                "tag": "supervisor",
+                "patterns": [
+                    "who is the supervisor of machine learing",
+                    "who is the supervisor of this subject",
+                    "who is the supervisor"
+                ],
+                "responses": [
+                    "Dr.Emam and Eng.Ismail"
+                ]
+            },
+            {
+                "tag": "inspire",
+                "patterns": [
+                    "who inspires you",
+                    "who inspire you",
+                    "who is your inspiration",
+                    "who motivates you"
+                ],
+                "responses": [
+                    "Personally, I find Dr.Ahmed Emam, Eng.Ismail, Eng.Abd Aziz and Eng.Samy very inspiring. I might not be very fair though.."
+                ]
+            },
+            {
+                "tag": "cooking recipes",
+                "patterns": [
+                    "suggest a recipe to do",
+                    "lets cook",
+                    "I want to make my food",
+                    "give me a food recipe",
+                    "easy cooking recipes",
+                    "cooking recipes",
+                    "recipes",
+                    "recipe"
+                ],
+                "responses": [
+                    "I have many recipes but one of them is:\n\n[Caprese Salad]: Fresh mozzarella cheese, tomatoes, basil leaves, extra virgin olive oil, balsamic glaze, salt, and pepper.",
+                    "I have many recipes but one of them is:\n\n[Spaghetti Aglio e Olio]: Spaghetti, garlic, olive oil, red pepper flakes, parsley, salt, and Parmesan cheese.",
+                    "I have many recipes but one of them is:\n\n[Grilled Cheese Sandwich]: Bread, cheese (such as cheddar or Swiss), butter.",
+                    "I have many recipes but one of them is:\n\n[Greek Salad]: Cucumbers, tomatoes, red onions, Kalamata olives, feta cheese, olive oil, lemon juice, salt, and pepper.",
+                    "I have many recipes but one of them is:\n\n[Chicken Stir-Fry]: Chicken breast, mixed vegetables (such as bell peppers, broccoli, carrots), soy sauce, garlic, ginger, cornstarch, and oil.",
+                    "I have many recipes but one of them is:\n\n[Bruschetta]: Baguette, tomatoes, garlic, basil leaves, extra virgin olive oil, balsamic glaze, salt, and pepper.",
+                    "I have many recipes but one of them is:\n\n[Omelette]: Eggs, milk, salt, pepper, butter, and optional fillings (such as cheese, vegetables, or cooked meat).",
+                    "I have many recipes but one of them is:\n\n[Margherita Pizza]: Pizza dough, tomato sauce, fresh mozzarella cheese, fresh basil leaves, olive oil, salt, and pepper.",
+                    "I have many recipes but one of them is:\n\n[Baked Salmon]: Salmon fillets, lemon juice, garlic, dill, salt, and pepper.",
+                    "I have many recipes but one of them is:\n\n[Classic Guacamole]: Avocados, lime juice, red onion, tomato, cilantro, jalapeño (optional), garlic, salt, and pepper.",
+                    "I have many recipes but one of them is:\n\n[Caprese Skewers]: Cherry tomatoes, mini mozzarella balls, fresh basil leaves, balsamic glaze, salt, and pepper.",
+                    "I have many recipes but one of them is:\n\n[Berry Smoothie]: Mixed berries (strawberries, blueberries, raspberries), Greek yogurt, milk (or almond milk), honey (optional), and ice."
+                ]
+            },
+            {
+                "tag": "food",
+                "patterns": [
+                    "suggest a food to eat",
+                    "I am hungry",
+                    "Iam hungry",
+                    "lets eat",
+                    "what should I eat",
+                    "feed me",
+                    "food",
+                    "I want to eat"
+                ],
+                "responses": [
+                    "I have many ideas of what you can eat but one of them is:\nGrilled chicken breast with steamed vegetables",
+		      	    "I have many ideas of what you can eat but one of them is:\nSpaghetti with marinara sauce and lean ground turkey",
+			        "I have many ideas of what you can eat but one of them is:\nQuinoa salad with mixed greens, cherry tomatoes, and grilled shrimp",
+			        "I have many ideas of what you can eat but one of them is:\nStir-fried tofu and vegetables with brown rice",
+			        "I have many ideas of what you can eat but one of them is:\nBaked salmon with roasted sweet potatoes and asparagus",
+		     	    "I have many ideas of what you can eat but one of them is:\nVegetable omelette with whole wheat toast",
+			        "I have many ideas of what you can eat but one of them is:\nLentil soup with a side of whole grain bread",
+			        "I have many ideas of what you can eat but one of them is:\nGrilled steak with roasted Brussels sprouts and mashed cauliflower",
+  			        "I have many ideas of what you can eat but one of them is:\nChickpea curry with basmati rice",
+			        "I have many ideas of what you can eat but one of them is:\nTurkey or chicken wrap with lettuce, tomato, and avocado",
+			        "I have many ideas of what you can eat but one of them is:\nBaked sweet potato fries with a turkey burger",
+            	    "I have many ideas of what you can eat but one of them is:\nVegetable stir-fry with tofu or chicken and jasmine rice"
+                ]
+            },
+            {
+                "tag": "songs",
+                "patterns": [
+                    "top songs",
+                    "best songs",
+                    "hot songs",
+                    "top 10 songs",
+                    "top ten songs"
+                ],
+                "responses": [
+                    "As an AI language model, I don't have personal preferences or feelings. However, here are 10 popular and widely acclaimed songs across different genres that many people enjoy:\n\n(Bohemian Rhapsody) by Queen \n(Imagine) by John Lennon \n(Hotel California) by Eagles \n(Hey Jude) by The Beatles \n(Smells Like Teen Spirit) by Nirvana \n(Thriller) by Michael Jackson \n(Stairway to Heaven)by Led Zeppelin \n(Billie Jean) by Michael Jackson \n(Like a Rolling Stone) by Bob Dylan \n(Sweet Child o' Mine) by Guns N' Roses"
+                ]
+            },
+            {
+                "tag": "bad_mood_song",
+                "patterns": [
+                    "suggest me songs for bad mood",
+                    "best songs for bad mood",
+                    "bad mood songs",
+                    "top 10 bad mood songs",
+                    "top ten bad mood songs",
+                    "bad mood",
+                    "bad mood ones"
+                ],
+                "responses": [
+                    "As an AI language model, I don't have personal preferences or feelings. However, here are 10 popular and widely acclaimed songs that refair to bad mood that many people enjoy:\n\n(Hurt) by Johnny Cash \n(Nothing Compares 2 U) by Sinead O'Connor \n(Everybody Hurts) by R.E.M. \n(Mad World) by Gary Jules \n(The Sound of Silence) by Simon & Garfunkel \n(Someone Like You) by Adele \n(Creep) by Radiohead \n(Tears in Heaven) by Eric Clapton \n(Yesterday) by The Beatles \n(How to Save a Life) by The Fray"
+                ]
+            },
+            {
+                "tag": "romance_song",
+                "patterns": [
+                    "suggest romance songs",
+                    "best romance songs",
+                    "romance songs",
+                    "top 10 romance songs",
+                    "top ten romance songs",
+                    "romance",
+                    "romance ones"
+                ],
+                "responses": [
+                    "As an AI language model, I don't have personal preferences or feelings. However, here are 10 popular and widely acclaimed songs that refair to romance that many people enjoy:\n\n(Thinking Out Loud) by Ed Sheeran \n(All of Me) by John Legend \n(At Last) by Etta James \n(Unchained Melody) by The Righteous Brothers \n(Can't Help Falling in Love) by Elvis Presley\n(Make You Feel My Love) by Adele \n(Perfect) by Ed Sheeran \n(I Will Always Love You) by Whitney Houston \n(Amazed) by Lonestar \n(Endless Love) by Diana Ross and Lionel Richie"
+                ]
+            },
+            {
+                "tag": "movies",
+                "patterns": [
+                    "suggest a movie",
+                    "best movies",
+                    "I need a movie",
+                    "top 10 movies",
+                    "top ten movies",
+                    "movie",
+                    "top movies with rating",
+                    "movies with rating",
+                    "rate some movies"
+                ],
+                "responses": [
+                    "Here are some highly rated films across various genres:\n\n(The Shawshank Redemption) (1994) - IMDb Rating: 9.3/10 - Genre: Drama, Crime\n\n(The Godfather) (1972) - IMDb Rating: 9.2/10 - Genre: Crime, Drama\n\n(The Dark Knight) (2008) - IMDb Rating: 9.0/10 - Genre: Action, Crime, Drama\n\n(Pulp Fiction) (1994) - IMDb Rating: 8.9/10 - Genre: Crime, Drama\n\n(The Lord of the Rings: The Return of the King) (2003) - IMDb Rating: 8.9/10 - Genre: Adventure, Drama, Fantasy\n\n(Fight Club) (1999) - IMDb Rating: 8.8/10 - Genre: Drama\n\n(Schindler's List) (1993) - IMDb Rating: 8.8/10 - Genre: Biography, Drama, History\n\n(Inception) (2010) - IMDb Rating: 8.7/10 - Genre: Action, Adventure, Sci-Fi\n\n(The Matrix) (1999) - IMDb Rating: 8.7/10 - Genre: Action, Sci-Fi\n\n(The Lion King) (1994) - IMDb Rating: 8.5/10 - Genre: Animation, Adventure, Drama\n\nThese films have received high ratings and are widely regarded as classics or highly influential in their respective genres. However, film preferences can vary, so it's always a good idea to explore different genres and discover movies that align with your personal tastes."
+                ]
+            },
+            {
+                "tag": "programming_languages",
+                "patterns": [
+                    "Tell me about programming languages",
+                    "What are popular programming languages?",
+                    "Which programming languages should I learn?",
+                    "Can you recommend a programming language for beginners?",
+                    "What programming language is used for web development?",
+                    "What programming language is used for data analysis?"
+                ],
+                "responses": [
+                    "There are several popular programming languages such as Python, Java, and JavaScript. Each language has its own features and use cases."
+                ]
+            },
+            {
+                "tag": "algorithms",
+                "patterns": [
+                    "What are algorithms?",
+                    "Tell me about sorting algorithms",
+                    "Explain the concept of time complexity",
+                    "What are the different types of data structures?",
+                    "Can you recommend resources to learn algorithms?"
+                ],
+                "responses": [
+                    "Algorithms are step-by-step procedures to solve a specific problem. Sorting algorithms like bubble sort, insertion sort, and quicksort arrange data in a specific order. Let me know if you need more information about a particular algorithm."
+                ]
+            },
+            {
+                "tag": "software_development",
+                "patterns": [
+                    "What is software development?",
+                    "Explain the software development life cycle",
+                    "What are the different software development methodologies?",
+                    "How to become a software developer?",
+                    "What are the essential skills for a software developer?"
+                ],
+                "responses": [
+                    "Software development is the process of designing, coding, testing, and deploying software applications. The software development life cycle includes requirements gathering, design, implementation, testing, and maintenance. Do you have any specific questions about software development?"
+                ]
+            },
+            {
+                "tag": "artificial_intelligence",
+                "patterns": [
+                    "What is artificial intelligence?",
+                    "Tell me about machine learning",
+                    "What are the applications of AI?",
+                    "What are the types of machine learning algorithms?",
+                    "Can you recommend AI frameworks or libraries?"
+                ],
+                "responses": [
+                    "Artificial intelligence (AI) refers to the simulation of human intelligence in machines. Machine learning (ML) is a subset of AI that focuses on training machines to learn patterns and make predictions. Neural networks and deep learning are popular techniques in ML. How can I assist you with AI or ML topics?"
+                ]
+            },
+            {
+                "tag": "web_development",
+                "patterns": [
+                    "What is web development?",
+                    "Tell me about HTML and CSS",
+                    "What are the latest trends in web development?",
+                    "Which web development framework should I learn?",
+                    "Can you recommend resources to learn web development?"
+                ],
+                "responses": [
+                    "Web development involves creating websites or web applications. HTML (Hypertext Markup Language) is used for structuring web content, while CSS (Cascading Style Sheets) is used for styling and layout. JavaScript is a programming language for adding interactivity. Let me know if you have any specific queries about web development."
+                ]
+           },
+           {
+                "tag": "databases",
+                "patterns": [
+                    "Explain databases",
+                    "Tell me about SQL",
+                    "What are the types of databases?",
+                    "How to design a relational database schema?",
+                    "What is mySQL?"
+                ],
+                "responses": [
+                    "Databases are used to store and manage structured data. SQL (Structured Query Language) is a language for managing relational databases. It allows you to create tables, perform queries, and manipulate data. If you have any questions about databases or SQL, feel free to ask."
+                ]
+           },
+           {
+                "tag": "cybersecurity",
+                "patterns": [
+                    "What is cybersecurity?",
+                    "How to secure computer systems?",
+                    "What are the common types of cyber attacks?",
+                    "Explain the concept of encryption",
+                    "What are the best practices for online privacy?"
+                ],
+                "responses": [
+                    "Cybersecurity involves protecting computer systems and networks from unauthorized access or attacks. It includes measures like encryption, firewalls, and user authentication. I can provide information on common security threats and best practices for cybersecurity."
+                ]
+           },
+           {
+                "tag": "operating_systems",
+                "patterns": [
+                    "Tell me about operating systems",
+                    "What are the popular operating systems?",
+                    "What is the difference between Windows and macOS?",
+                    "Can you explain the concept of virtualization?",
+                    "Which operating system is best for gaming?"
+                ],
+                "responses": [
+                    "Operating systems are software that manage computer hardware and software resources. Popular operating systems include Windows, macOS, and Linux. Each has its own features and user interface."
+                ]
+           },
+           {
+                "tag": "computer_networks",
+                "patterns": [
+                    "What are computer networks?",
+                    "Tell me about TCP/IP",
+                    "How does DNS work?",
+                    "What are the different types of network topologies?",
+                    "Explain the concept of network security"
+                ],
+                "responses": [
+                    "Computer networks connect devices to facilitate data communication. TCP/IP (Transmission Control Protocol/Internet Protocol) is the standard protocol suite for network communication. It defines how data is transmitted and addressed across networks. Let me know if you have specific questions about computer networks."
+                ]
+           },
+           {
+                "tag": "software_engineering",
+                "patterns": [
+                    "Explain software engineering principles",
+                    "What is version control?",
+                    "What are the different software testing techniques?",
+                    "Tell me about agile software development",
+                    "What is DevOps?"
+                ],
+                "responses": [
+                    "Software engineering principles involve best practices for developing high-quality software. Version control is a system for managing changes to source code. It allows multiple developers to collaborate and track modifications. If you need information on software engineering concepts, feel free to ask."
+                ]
+            },
+            {
+                "tag": "ksiu",
+                "patterns": [
+                    "what do you know abou ksiu",
+                    "what do you know about king salman international university",
+                    "ksiu",
+                    "king salman international university"
+                ],
+                "responses": [
+                    "King Salman University is one of the leading universities in the field of scientific research and community service locally, regionally, and globally. It strives for quality and excellence to be a catalyst for sustainable economic and social development.\n\nKing Salman University provides distinguished professional and academic programs and provides local and international training and employment opportunities for its graduates. Moreover the university aims to spread knowledge to meet the needs of society and sustainable development plans and link them with industry in a flexible framework that allows continuous improvement and preserves societal values.\n\nThe university has 3 campuses located in Al Tur, Sharm El Sheikh and Ras Sidr."
+                ]
+            },
+            {
+                "tag": "influenza",
+                "patterns": [
+                    "What is influenza?",
+                    "Tell me about the flu",
+                    "I cought a flu",
+                    "I have influenza",
+                    "I have a flu",
+                    "I sneeze alot",
+                    "I help me with my flu",
+                    "do you have a flu treatment",
+                    "do you have a influenza treatment",
+                    "what is the symptoms of the flu",
+                    "what is the symptoms of the influenza"
+                ],
+                "responses": [
+                    "Influenza, commonly known as the flu, is a contagious respiratory illness caused by influenza viruses. It typically causes symptoms such as fever, cough, sore throat, body aches, and fatigue. Treatment involves antiviral medications like oseltamivir (Tamiflu) or zanamivir (Relenza), along with supportive care."
+                ]
+            },
+            {
+                "tag": "common_cold",
+                "patterns": [
+                    "What is a common cold?",
+                    "Tell me about the common cold",
+                    "I cought a cold",
+                    "I have commin cold",
+                    "I have a cold",
+                    "I cough alot",
+                    "can you help me with my cold illness",
+                    "do you have a cold treatment",
+                    "do you have a common cold treatment",
+                    "What are the symptoms of a cold?",
+                    "How long does a cold typically last?",
+                    "How is the common cold transmitted?",
+                    "Are antibiotics effective against the common cold?",
+                    "How can I relieve symptoms of a cold?",
+                    "Can I prevent getting a cold?",
+                    "what is the symptoms of the cold"
+                ],
+                "responses": [
+                    "The common cold is a viral infection that primarily affects the nose and throat. It can cause symptoms such as a runny or stuffy nose, sneezing, sore throat, cough, and mild fatigue. Symptomatic relief can be obtained with over-the-counter medications like pain relievers, decongestants, cough suppressants, and saline nasal sprays."
+                ]
+            },
+            {
+                "tag": "diabetes",
+                "patterns": [
+                    "What is diabetes?",
+                    "What are the types of diabetes?",
+                    "What are the symptoms of diabetes?",
+                    "How is diabetes diagnosed?",
+                    "What are the risk factors for diabetes?",
+                    "How can diabetes be managed?",
+                    "What is the role of diet and exercise in diabetes?",
+                    "Can diabetes be prevented?",
+                    "I got a diabetic coma"                    
+                ],
+                "responses": [
+                    "Diabetes is a chronic condition characterized by high blood sugar levels. It occurs when the body doesn't produce enough insulin or cannot effectively use the insulin it produces. Treatment options for diabetes include insulin injections, oral medications (e.g., metformin, sulfonylureas), lifestyle modifications (diet, exercise), and blood sugar monitoring."
+                ]
+            },
+            {
+                "tag": "hypertension",
+                "patterns": [
+                    "What is hypertension?",
+                    "Tell me about high blood pressure",
+                    "what is the treatment of the hypertension",
+                    "what is the treatment of the high blood pressure",
+                    "what is the symptoms of the hypertension",
+                    "can hypertension be prevented",
+                    "How can hypertension be managed?",
+                    "What are the risk factors for hypertension",
+                    "how is hypertension diagnosed"
+                ],
+                "responses": [
+                    "Hypertension, commonly known as high blood pressure, is a condition in which the force of blood against the artery walls is consistently too high. It is often asymptomatic but can increase the risk of heart disease and other complications. Hypertension can be managed with antihypertensive medications (e.g., ACE inhibitors, beta-blockers, diuretics), lifestyle changes (healthy diet, regular exercise, stress reduction), and monitoring."
+                ]
+            },
+            {
+                "tag": "alzheimers_disease",
+                "patterns": [
+                    "What is Alzheimer's disease?",
+                    "Tell me about Alzheimer's",
+                    "How do I know if I have alzheimers",
+                    "what is the symptoms of the alzheimers",
+                    "How can alzheimers be managed?",
+                    "what is the treatment of alzahiemers"
+                ],
+                "responses": [
+                    "Alzheimer's disease is a progressive neurological disorder that affects memory, thinking, and behavior. It is the most common cause of dementia. Treatment involves cholinesterase inhibitors (e.g., donepezil, rivastigmine), NMDA receptor antagonist (memantine), and supportive care."
+                ]
+            },
+            {
+                "tag": "cancer",
+                "patterns": [
+                    "What is the cancer?",
+                    "Tell me about cancer",
+                    "How do I know if I have cancer",
+                    "what is the symptoms of the cancer",
+                    "How can cancer be managed?",
+                    "what is the treatment of cancer",
+                    "is cancer fatal"
+                ],
+                    "responses": [
+                        "Alzheimer's disease is a progressive neurological disorder that affects memory, thinking, and behavior. It is the most common cause of dementia. Treatment involves cholinesterase inhibitors (e.g., donepezil, rivastigmine), NMDA receptor antagonist (memantine), and supportive care."
+                ]
+            },
+            {
+                "tag": "feeling_depressed",
+                "patterns": [
+                    "I am feeling depressed",
+                    "I feel down",
+                    "Feeling sad and lonely",
+                    "What to do when feeling depressed",
+                    "How to cope with depression"
+                ],
+                "responses": [
+                    "I'm sorry to hear that you're feeling depressed. It's important to remember that you're not alone and there is support available. Reach out to a trusted friend, family member, or a mental health professional for help. Taking care of yourself, engaging in activities you enjoy, and seeking professional assistance can make a positive difference."
+                ]
+            },
+            {
+                "tag": "feeling_bored",
+                "patterns": [
+                    "I am bored",              
+                    "Feeling uninterested",
+                    "What to do when bored",
+                    "Activities to overcome boredom",
+                    "How to make the most of free time"
+                ],
+                "responses": [
+                    "If you're feeling bored, it's a great opportunity to explore new hobbies, learn something new, or engage in activities that bring you joy. You can try reading a book, watching a movie, going for a walk, listening to music, or pursuing a creative outlet. There are plenty of options available to make the most of your free time and overcome boredom."
+                ]
+            },
+            {
+                "tag": "greetreply",
+                "patterns": [
+                    "i am good",
+                    "I'm good",
+                    "i am fine",
+                    "i'm fine",
+                    "good",
+                    "fine thank you"
+                ],
+                "responses": [
+                    "Happy to hear!"
+                ]
+            },
+            {
+                "tag": "feedback",
+                "patterns": [
+                    "you are useless",
+                    "useless",
+                    "suggest",
+                    "suggestions",
+                    "you are bad",
+                    "feedback",
+                    "write a feedback",
+                    "improve"
+                ],
+                "responses": [
+                    "Please mail your suggestions to (yousefelsaket2016@gmail.com). Thank you for helping me improve!"
+                ]
+            },
+            {
+                "tag": "riddle",
+                "patterns": [
+                    "Ask me a riddle",
+                    "Ask me a question",
+                    "Riddle"
+                ],
+                "responses": [
+                    "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                    "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                    "How can a girl go 25 days without sleep?.....She sleeps and night!",
+                    "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                    "What will you actually find at the end of every rainbow?.....The letter 'w'",
+                    "What can be caught but never thrown?.....A cold!",
+                    "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                    "What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                    "Why can't a bike stand on it's own?.....It is two-tired."
+                ]
+            },
+            {
+                "tag": "age",
+                "patterns": [
+                    "how old are you",
+                    "when were you made",
+                    "what is your age"
+                ],
+                "responses": [
+                    "I was made in 2023, by Yousef Elsaket and Rawan Soliman, if that's what you are asking!"
+                ]
+            }
+        ]
+    }
