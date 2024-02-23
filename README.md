@@ -1,4 +1,4 @@
-ROBY Chatbot:
+# ROBY Chatbot:
 
 A Python chatbot designed with the aim of providing dynamic and intelligent conversations. Utilizing natural language processing, the chatbot interprets user input to generate appropriate responses from a predefined set of intents. The underlying machine learning model is trained on an extensive dataset, allowing ROBY to understand and respond to a variety of user queries.
 
@@ -7,7 +7,7 @@ The chatbot's capabilities extend beyond typical conversational exchanges. ROBY 
 The graphical user interface is built using Tkinter, providing an interactive and user-friendly environment. The chat history is displayed in a text widget, allowing users to track conversations. The application supports various functionalities, including retrieving the current time and date, making it a versatile companion for users seeking information and assistance.
 
 
-How to Use:
+## How to Use:
 
 
 Ensure you have Python installed on your machine.
@@ -19,6 +19,6 @@ Navigate to the project directory: cd roby-chatbot
 Run the chatbot: ROBY.py
 
 
-Read the Poster : [ROBY Poster.pdf](https://github.com/iiiiOreo/ROBY-Chatbot/files/14376895/ROBY.Poster.pdf)
+## Read the Poster : [ROBY Poster.pdf](https://github.com/iiiiOreo/ROBY-Chatbot/files/14376895/ROBY.Poster.pdf)
 
-Read the Presentation : [ROBY.pdf](https://github.com/iiiiOreo/ROBY-Chatbot/files/14376905/ROBY.pdf)
+## Read the Presentation : [ROBY.pdf](https://github.com/iiiiOreo/ROBY-Chatbot/files/14376905/ROBY.pdf)
